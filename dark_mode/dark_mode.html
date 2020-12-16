@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="flip_menu.css">
+  <link rel="stylesheet" href="dark_mode.css">
+
+  <title>Dark Mode</title>
+</head>
+
+<body>
+  <nav class="nav">
+    <input class="flip-trigger" type="checkbox" id="trigger">
+    <label class="flip-menu" for="trigger">
+      <span></span>
+    </label>
+    <ul class="nav_list">
+      <li class="nav_item">
+        <a href="/home/index.html" class="nav_link">Home</a>
+      </li>
+      <li class="nav_item">
+        <a href="/presentation/presentation.html" class="nav_link">Presentation</a>
+      </li>
+      <li class="nav_item">
+        <a href="/timeline/timeline.html" class="nav_link">Timeline</a>
+      </li>
+      <li class="nav_item">
+        <a href="dark_mode.html" class="nav_link">Dark Mode</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <main>
+    <label class="switch">
+      <input type="checkbox">
+      <div class="toggle"></div>
+    </label>
+  
+    <section class="text">
+      <h2>Lorem ipsum</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque consectetur assumenda fugiat necessitatibus eos
+        quibusdam ex aliquam et enim! Incidunt.</p>
+      <div class="buttons">
+        <a href="#" class="btn">Download</a>
+        <a href="#" class="btn btn-outline">Learn More</a>
+      </div>
+    </section>
+  
+    <section>
+      <div class="flex-items">
+        <div class="card">
+          <h1>Free</h1>
+          <p>&euro;0 <small>&#8725;month</small></p>
+          <p>1 user</p>
+          <p>1 project</p>
+        </div>
+  
+        <div class="card">
+          <span class="label">Popular</span>
+          <h1>Basic</h1>
+          <p>&euro;10 <small>&#8725;month</small></p>
+          <p>1 user</p>
+          <p>20 projects</p>
+        </div>
+  
+        <div class="card">
+          <h1>Premium</h1>
+          <p>&euro;99 <small>&#8725;month</small></p>
+          <p>10 users</p>
+          <p>Unlimited projects</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="toggle.js"></script>
+
+</body>
+</html>
