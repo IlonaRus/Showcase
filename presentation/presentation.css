@@ -1,0 +1,103 @@
+/* Variables */
+:root {
+  --page-1-color: #8d84eb;
+  --page-2-color: #654597;
+  --page-3-color: #8863b2;
+  --page-4-color: #ab81cd;
+  --animate-speed: 1s;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+/* Page Colors */
+#page-1 {
+  background: var(--page-1-color);
+}
+#page-2 {
+  background: var(--page-2-color);
+}
+#page-3 {
+  background: var(--page-3-color);
+}
+#page-4 {
+  background: var(--page-4-color);
+}
+
+
+/* Page styling */
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 4rem;
+}
+
+.page h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin: 1rem;
+}
+
+.page p {
+  font-size: 1.3rem;
+}
+
+/* Page animation */
+#page-1 h1 {
+  transform: translateY(-200%);
+  animation: heading var(--animate-speed) forwards ease-in;
+}
+
+#page-1 p {
+  transform: translateX(-200%);
+  animation: text var(--animate-speed) forwards ease-in 1s;
+}
+
+/* Keyframes */
+@keyframes heading {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes text {
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #f4f4f4;
+  color: #333;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover, .btn-dark {
+  background: #333;
+  color: #f4f4f4;
+}
+
+.btn-dark:hover {
+  background: #f4f4f4;
+  color: #333;
+}
