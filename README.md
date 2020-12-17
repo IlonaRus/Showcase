@@ -11,7 +11,7 @@ De afbeelding op de homepage heb ik van Unsplash https://unsplash.com/
 
 Elke pagina heeft eigen stijl en een navbar.
   
-Daarnaast heb ik rekening gehouden met de responsiveness en accessibility van de website.\
+Daarnaast heb ik rekening gehouden met de responsiveness en accessibility van de website.
 
 
 
