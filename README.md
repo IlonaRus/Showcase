@@ -5,8 +5,8 @@
 \
 Met deze showcase wil ik wat HTML en CSS kennis laten zien.
 Ik ben hier met name bezig geweest met CSS animaties en variabelen. In dit project zitten een aantal leuke animaties die ik gemaakt heb met transform, translate en animate.
-Ook heb ik CSS variabelen en enkele keyframes toegepast.
-De fonts heb ik van Google Fonts https://fonts.google.com/
+Ook heb ik CSS variabelen en enkele keyframes toegepast.\
+De fonts heb ik van Google Fonts https://fonts.google.com/ \
 De afbeelding op de homepage heb ik van Unsplash https://unsplash.com/
 
 Elke pagina heeft eigen stijl en een navbar.
