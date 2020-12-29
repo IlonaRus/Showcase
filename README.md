@@ -15,7 +15,7 @@ Daarnaast heb ik rekening gehouden met de responsiveness en accessibility van de
 
 
 
-https://ilonarus.github.io/Showcase/
+https://nostalgic-johnson-be7435.netlify.app/
 
 
 ### Website
@@ -44,7 +44,8 @@ Hier wordt de navbar geopend via de rechterkant.
 
 
 ### Code
-Ik heb mappen aangemaakt per pagina. In deze mappen zitten de HTML, CSS en JS bestanden die voor de desbetreffende pagina nodig zijn. Dit zorgt voor overzicht en duidelijkheid.
+Ik heb de CSS en Javascript onderdelen in aparte mappen geplaatst. Alle navigatie-onderdelen hebben hun eigen CSS bestand.
+Dit project is gedeployed met Netlify.
 
 Het is statische code. Er hoeft niets gerund te worden.
 
